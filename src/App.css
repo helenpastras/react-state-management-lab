@@ -6,16 +6,24 @@ section.fighterCard {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
-  padding: 16px;
+  gap: 10px;
+  padding: 10px;
 }
 
 section.fighterCard > div {
-  width: 200px;
-  padding: 8px;
+  width: 175px;
+  padding: 5px;
   border: 3px solid whitesmoke;
   border-radius: 8px;
   text-align: center;
 }
 
+.teamStats {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
 
