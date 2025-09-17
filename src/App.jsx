@@ -132,7 +132,8 @@ const App = () => {
       img: '/images/Leader-ZombieFighter.png',
     }]
     
-  )
+    )
+
     const totalStrength = team.reduce((sum, fighter) => sum + fighter.strength, 0);
     const totalAgility = team.reduce((sum, fighter) => sum + fighter.agility, 0);
 
@@ -153,7 +154,8 @@ const App = () => {
 </section>
       </div>
       <div>
-        <h3>Your Team:</h3>
+        <h3>Your Team</h3>
+        <p>Remaining funds: ${money}</p>
         <section className='teamStats'>
           <h4>Team Stats</h4>
             <p>Total Strength: {totalStrength}</p>
