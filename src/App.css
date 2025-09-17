@@ -2,20 +2,20 @@
   margin: 16px;
 }
 
-ul {
+section.fighterCard {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
 }
 
-li {
-  list-style: none;
+section.fighterCard > div {
   width: 200px;
-  margin: 8px;
   padding: 8px;
-  border: whitesmoke 3px solid;
+  border: 3px solid whitesmoke;
   border-radius: 8px;
   text-align: center;
-
 }
 
 
